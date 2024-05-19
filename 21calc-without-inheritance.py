@@ -1,6 +1,6 @@
 class Sum():
   sum = 0
-  args = [0,1]
+  args = [0,0]
 
   def __init__(self, args):
     self.args[0] = args[0]
