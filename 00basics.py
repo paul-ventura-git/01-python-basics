@@ -10,3 +10,7 @@ import datetime
  
 today = datetime.datetime.today()
 print(f"{today:%B %d, %Y}")
+
+
+amount = 150.75
+print("Amount: ${:.2f}".format(amount))
