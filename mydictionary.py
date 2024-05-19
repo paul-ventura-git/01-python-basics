@@ -1,559 +1,1245 @@
 mydictionary={
-  "products": [
+  "recipes": [
     {
       "id": 1,
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/1/1.jpg",
-        "https://cdn.dummyjson.com/product-images/1/2.jpg",
-        "https://cdn.dummyjson.com/product-images/1/3.jpg",
-        "https://cdn.dummyjson.com/product-images/1/4.jpg",
-        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+      "name": "Classic Margherita Pizza",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Fresh mozzarella cheese",
+        "Fresh basil leaves",
+        "Olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat the oven to 475°F (245°C).",
+        "Roll out the pizza dough and spread tomato sauce evenly.",
+        "Top with slices of fresh mozzarella and fresh basil leaves.",
+        "Drizzle with olive oil and season with salt and pepper.",
+        "Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
+        "Slice and serve hot."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "difficulty": "Easy",
+      "cuisine": "Italian",
+      "caloriesPerServing": 300,
+      "tags": [
+        "Pizza",
+        "Italian"
+      ],
+      "userId": 45,
+      "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+      "rating": 4.6,
+      "reviewCount": 3,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 2,
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "discountPercentage": 17.94,
-      "rating": 4.44,
-      "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/2/1.jpg",
-        "https://cdn.dummyjson.com/product-images/2/2.jpg",
-        "https://cdn.dummyjson.com/product-images/2/3.jpg",
-        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+      "name": "Vegetarian Stir-Fry",
+      "ingredients": [
+        "Tofu, cubed",
+        "Broccoli florets",
+        "Carrots, sliced",
+        "Bell peppers, sliced",
+        "Soy sauce",
+        "Ginger, minced",
+        "Garlic, minced",
+        "Sesame oil",
+        "Cooked rice for serving"
+      ],
+      "instructions": [
+        "In a wok, heat sesame oil over medium-high heat.",
+        "Add minced ginger and garlic, sauté until fragrant.",
+        "Add cubed tofu and stir-fry until golden brown.",
+        "Add broccoli, carrots, and bell peppers. Cook until vegetables are tender-crisp.",
+        "Pour soy sauce over the stir-fry and toss to combine.",
+        "Serve over cooked rice."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 20,
+      "servings": 3,
+      "difficulty": "Medium",
+      "cuisine": "Asian",
+      "caloriesPerServing": 250,
+      "tags": [
+        "Vegetarian",
+        "Stir-fry",
+        "Asian"
+      ],
+      "userId": 58,
+      "image": "https://cdn.dummyjson.com/recipe-images/2.webp",
+      "rating": 4.7,
+      "reviewCount": 36,
+      "mealType": [
+        "Lunch"
       ]
     },
     {
       "id": 3,
-      "title": "Samsung Universe 9",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
-      "discountPercentage": 15.46,
-      "rating": 4.09,
-      "stock": 36,
-      "brand": "Samsung",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/3/1.jpg"
+      "name": "Chocolate Chip Cookies",
+      "ingredients": [
+        "All-purpose flour",
+        "Butter, softened",
+        "Brown sugar",
+        "White sugar",
+        "Eggs",
+        "Vanilla extract",
+        "Baking soda",
+        "Salt",
+        "Chocolate chips"
+      ],
+      "instructions": [
+        "Preheat the oven to 350°F (175°C).",
+        "In a bowl, cream together softened butter, brown sugar, and white sugar.",
+        "Beat in eggs one at a time, then stir in vanilla extract.",
+        "Combine flour, baking soda, and salt. Gradually add to the wet ingredients.",
+        "Fold in chocolate chips.",
+        "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+        "Bake for 10-12 minutes or until edges are golden brown.",
+        "Allow cookies to cool on the baking sheet for a few minutes before transferring to a wire rack."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "servings": 24,
+      "difficulty": "Easy",
+      "cuisine": "American",
+      "caloriesPerServing": 150,
+      "tags": [
+        "Cookies",
+        "Dessert",
+        "Baking"
+      ],
+      "userId": 39,
+      "image": "https://cdn.dummyjson.com/recipe-images/3.webp",
+      "rating": 4.9,
+      "reviewCount": 23,
+      "mealType": [
+        "Snack",
+        "Dessert"
       ]
     },
     {
       "id": 4,
-      "title": "OPPOF19",
-      "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
-      "discountPercentage": 17.91,
-      "rating": 4.3,
-      "stock": 123,
-      "brand": "OPPO",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/4/1.jpg",
-        "https://cdn.dummyjson.com/product-images/4/2.jpg",
-        "https://cdn.dummyjson.com/product-images/4/3.jpg",
-        "https://cdn.dummyjson.com/product-images/4/4.jpg",
-        "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+      "name": "Chicken Alfredo Pasta",
+      "ingredients": [
+        "Fettuccine pasta",
+        "Chicken breast, sliced",
+        "Heavy cream",
+        "Parmesan cheese, grated",
+        "Garlic, minced",
+        "Butter",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": [
+        "Cook fettuccine pasta according to package instructions.",
+        "In a pan, sauté sliced chicken in butter until fully cooked.",
+        "Add minced garlic and cook until fragrant.",
+        "Pour in heavy cream and grated Parmesan cheese. Stir until the cheese is melted.",
+        "Season with salt and pepper to taste.",
+        "Combine the Alfredo sauce with cooked pasta.",
+        "Garnish with fresh parsley before serving."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 20,
+      "servings": 4,
+      "difficulty": "Medium",
+      "cuisine": "Italian",
+      "caloriesPerServing": 500,
+      "tags": [
+        "Pasta",
+        "Chicken"
+      ],
+      "userId": 46,
+      "image": "https://cdn.dummyjson.com/recipe-images/4.webp",
+      "rating": 4.9,
+      "reviewCount": 38,
+      "mealType": [
+        "Lunch",
+        "Dinner"
       ]
     },
     {
       "id": 5,
-      "title": "Huawei P30",
-      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-      "price": 499,
-      "discountPercentage": 10.58,
-      "rating": 4.09,
-      "stock": 32,
-      "brand": "Huawei",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/5/1.jpg",
-        "https://cdn.dummyjson.com/product-images/5/2.jpg",
-        "https://cdn.dummyjson.com/product-images/5/3.jpg"
+      "name": "Mango Salsa Chicken",
+      "ingredients": [
+        "Chicken thighs",
+        "Mango, diced",
+        "Red onion, finely chopped",
+        "Cilantro, chopped",
+        "Lime juice",
+        "Jalapeño, minced",
+        "Salt and pepper to taste",
+        "Cooked rice for serving"
+      ],
+      "instructions": [
+        "Season chicken thighs with salt and pepper.",
+        "Grill or bake chicken until fully cooked.",
+        "In a bowl, combine diced mango, chopped red onion, cilantro, minced jalapeño, and lime juice.",
+        "Dice the cooked chicken and mix it with the mango salsa.",
+        "Serve over cooked rice."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 25,
+      "servings": 3,
+      "difficulty": "Easy",
+      "cuisine": "Mexican",
+      "caloriesPerServing": 380,
+      "tags": [
+        "Chicken",
+        "Salsa"
+      ],
+      "userId": 48,
+      "image": "https://cdn.dummyjson.com/recipe-images/5.webp",
+      "rating": 4.9,
+      "reviewCount": 25,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 6,
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
-      "discountPercentage": 11.02,
-      "rating": 4.57,
-      "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/6/1.png",
-        "https://cdn.dummyjson.com/product-images/6/2.jpg",
-        "https://cdn.dummyjson.com/product-images/6/3.png",
-        "https://cdn.dummyjson.com/product-images/6/4.jpg"
+      "name": "Quinoa Salad with Avocado",
+      "ingredients": [
+        "Quinoa, cooked",
+        "Avocado, diced",
+        "Cherry tomatoes, halved",
+        "Cucumber, diced",
+        "Red bell pepper, diced",
+        "Feta cheese, crumbled",
+        "Lemon vinaigrette dressing",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "In a large bowl, combine cooked quinoa, diced avocado, halved cherry tomatoes, diced cucumber, diced red bell pepper, and crumbled feta cheese.",
+        "Drizzle with lemon vinaigrette dressing and toss to combine.",
+        "Season with salt and pepper to taste.",
+        "Chill in the refrigerator before serving."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "difficulty": "Easy",
+      "cuisine": "Mediterranean",
+      "caloriesPerServing": 280,
+      "tags": [
+        "Salad",
+        "Quinoa"
+      ],
+      "userId": 5,
+      "image": "https://cdn.dummyjson.com/recipe-images/6.webp",
+      "rating": 4.4,
+      "reviewCount": 21,
+      "mealType": [
+        "Lunch",
+        "Side Dish"
       ]
     },
     {
       "id": 7,
-      "title": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-      "price": 1499,
-      "discountPercentage": 4.15,
-      "rating": 4.25,
-      "stock": 50,
-      "brand": "Samsung",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/7/1.jpg",
-        "https://cdn.dummyjson.com/product-images/7/2.jpg",
-        "https://cdn.dummyjson.com/product-images/7/3.jpg",
-        "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+      "name": "Tomato Basil Bruschetta",
+      "ingredients": [
+        "Baguette, sliced",
+        "Tomatoes, diced",
+        "Fresh basil, chopped",
+        "Garlic cloves, minced",
+        "Balsamic glaze",
+        "Olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat the oven to 375°F (190°C).",
+        "Place baguette slices on a baking sheet and toast in the oven until golden brown.",
+        "In a bowl, combine diced tomatoes, chopped fresh basil, minced garlic, and a drizzle of olive oil.",
+        "Season with salt and pepper to taste.",
+        "Top each toasted baguette slice with the tomato-basil mixture.",
+        "Drizzle with balsamic glaze before serving."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "servings": 6,
+      "difficulty": "Easy",
+      "cuisine": "Italian",
+      "caloriesPerServing": 120,
+      "tags": [
+        "Bruschetta",
+        "Italian"
+      ],
+      "userId": 50,
+      "image": "https://cdn.dummyjson.com/recipe-images/7.webp",
+      "rating": 4.7,
+      "reviewCount": 9,
+      "mealType": [
+        "Appetizer"
       ]
     },
     {
       "id": 8,
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
-      "rating": 4.43,
-      "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/8/1.jpg",
-        "https://cdn.dummyjson.com/product-images/8/2.jpg",
-        "https://cdn.dummyjson.com/product-images/8/3.jpg",
-        "https://cdn.dummyjson.com/product-images/8/4.jpg",
-        "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+      "name": "Beef and Broccoli Stir-Fry",
+      "ingredients": [
+        "Beef sirloin, thinly sliced",
+        "Broccoli florets",
+        "Soy sauce",
+        "Oyster sauce",
+        "Sesame oil",
+        "Garlic, minced",
+        "Ginger, minced",
+        "Cornstarch",
+        "Cooked white rice for serving"
+      ],
+      "instructions": [
+        "In a bowl, mix soy sauce, oyster sauce, sesame oil, and cornstarch to create the sauce.",
+        "In a wok, stir-fry thinly sliced beef until browned. Remove from the wok.",
+        "Stir-fry broccoli florets, minced garlic, and minced ginger in the same wok.",
+        "Add the cooked beef back to the wok and pour the sauce over the mixture.",
+        "Stir until everything is coated and heated through.",
+        "Serve over cooked white rice."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "difficulty": "Medium",
+      "cuisine": "Asian",
+      "caloriesPerServing": 380,
+      "tags": [
+        "Beef",
+        "Stir-fry",
+        "Asian"
+      ],
+      "userId": 18,
+      "image": "https://cdn.dummyjson.com/recipe-images/8.webp",
+      "rating": 4.7,
+      "reviewCount": 18,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 9,
-      "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-      "price": 1099,
-      "discountPercentage": 11.83,
-      "rating": 4.54,
-      "stock": 96,
-      "brand": "Infinix",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/9/1.jpg",
-        "https://cdn.dummyjson.com/product-images/9/2.png",
-        "https://cdn.dummyjson.com/product-images/9/3.png",
-        "https://cdn.dummyjson.com/product-images/9/4.jpg",
-        "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
+      "name": "Caprese Salad",
+      "ingredients": [
+        "Tomatoes, sliced",
+        "Fresh mozzarella cheese, sliced",
+        "Fresh basil leaves",
+        "Balsamic glaze",
+        "Extra virgin olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Arrange alternating slices of tomatoes and fresh mozzarella on a serving platter.",
+        "Tuck fresh basil leaves between the slices.",
+        "Drizzle with balsamic glaze and extra virgin olive oil.",
+        "Season with salt and pepper to taste.",
+        "Serve immediately as a refreshing salad."
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "servings": 2,
+      "difficulty": "Easy",
+      "cuisine": "Italian",
+      "caloriesPerServing": 200,
+      "tags": [
+        "Salad",
+        "Caprese"
+      ],
+      "userId": 75,
+      "image": "https://cdn.dummyjson.com/recipe-images/9.webp",
+      "rating": 4.6,
+      "reviewCount": 26,
+      "mealType": [
+        "Lunch"
       ]
     },
     {
       "id": 10,
-      "title": "HP Pavilion 15-DK1056WM",
-      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-      "price": 1099,
-      "discountPercentage": 6.18,
-      "rating": 4.43,
-      "stock": 89,
-      "brand": "HP Pavilion",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/10/1.jpg",
-        "https://cdn.dummyjson.com/product-images/10/2.jpg",
-        "https://cdn.dummyjson.com/product-images/10/3.jpg",
-        "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
+      "name": "Shrimp Scampi Pasta",
+      "ingredients": [
+        "Linguine pasta",
+        "Shrimp, peeled and deveined",
+        "Garlic, minced",
+        "White wine",
+        "Lemon juice",
+        "Red pepper flakes",
+        "Fresh parsley, chopped",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook linguine pasta according to package instructions.",
+        "In a skillet, sauté minced garlic in olive oil until fragrant.",
+        "Add shrimp and cook until pink and opaque.",
+        "Pour in white wine and lemon juice. Simmer until the sauce slightly thickens.",
+        "Season with red pepper flakes, salt, and pepper.",
+        "Toss cooked linguine in the shrimp scampi sauce.",
+        "Garnish with chopped fresh parsley before serving."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 20,
+      "servings": 3,
+      "difficulty": "Medium",
+      "cuisine": "Italian",
+      "caloriesPerServing": 400,
+      "tags": [
+        "Pasta",
+        "Shrimp"
+      ],
+      "userId": 9,
+      "image": "https://cdn.dummyjson.com/recipe-images/10.webp",
+      "rating": 4.3,
+      "reviewCount": 15,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 11,
-      "title": "perfume Oil",
-      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
-      "price": 13,
-      "discountPercentage": 8.4,
-      "rating": 4.26,
-      "stock": 65,
-      "brand": "Impression of Acqua Di Gio",
-      "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/11/1.jpg",
-        "https://cdn.dummyjson.com/product-images/11/2.jpg",
-        "https://cdn.dummyjson.com/product-images/11/3.jpg",
-        "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg"
+      "name": "Chicken Biryani",
+      "ingredients": [
+        "Basmati rice",
+        "Chicken, cut into pieces",
+        "Onions, thinly sliced",
+        "Tomatoes, chopped",
+        "Yogurt",
+        "Ginger-garlic paste",
+        "Biryani masala",
+        "Green chilies, sliced",
+        "Fresh coriander leaves",
+        "Mint leaves",
+        "Ghee",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Marinate chicken with yogurt, ginger-garlic paste, biryani masala, and salt.",
+        "In a pot, sauté sliced onions until golden brown. Remove half for later use.",
+        "Layer marinated chicken, chopped tomatoes, half of the fried onions, and rice in the pot.",
+        "Top with ghee, green chilies, fresh coriander leaves, mint leaves, and the remaining fried onions.",
+        "Cover and cook on low heat until the rice is fully cooked and aromatic.",
+        "Serve hot, garnished with additional coriander and mint leaves."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 45,
+      "servings": 6,
+      "difficulty": "Medium",
+      "cuisine": "Pakistani",
+      "caloriesPerServing": 550,
+      "tags": [
+        "Biryani",
+        "Chicken",
+        "Main course",
+        "Indian",
+        "Pakistani",
+        "Asian"
+      ],
+      "userId": 39,
+      "image": "https://cdn.dummyjson.com/recipe-images/11.webp",
+      "rating": 5,
+      "reviewCount": 34,
+      "mealType": [
+        "Lunch",
+        "Dinner"
       ]
     },
     {
       "id": 12,
-      "title": "Brown Perfume",
-      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
-      "price": 40,
-      "discountPercentage": 15.66,
-      "rating": 4,
-      "stock": 52,
-      "brand": "Royal_Mirage",
-      "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/12/1.jpg",
-        "https://cdn.dummyjson.com/product-images/12/2.jpg",
-        "https://cdn.dummyjson.com/product-images/12/3.png",
-        "https://cdn.dummyjson.com/product-images/12/4.jpg",
-        "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg"
+      "name": "Chicken Karahi",
+      "ingredients": [
+        "Chicken, cut into pieces",
+        "Tomatoes, chopped",
+        "Green chilies, sliced",
+        "Ginger, julienned",
+        "Garlic, minced",
+        "Coriander powder",
+        "Cumin powder",
+        "Red chili powder",
+        "Garam masala",
+        "Cooking oil",
+        "Fresh coriander leaves",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "In a wok (karahi), heat cooking oil and sauté minced garlic until golden brown.",
+        "Add chicken pieces and cook until browned on all sides.",
+        "Add chopped tomatoes, green chilies, ginger, and spices. Cook until tomatoes are soft.",
+        "Cover and simmer until the chicken is tender and the oil separates from the masala.",
+        "Garnish with fresh coriander leaves and serve hot with naan or rice."
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "servings": 4,
+      "difficulty": "Easy",
+      "cuisine": "Pakistani",
+      "caloriesPerServing": 420,
+      "tags": [
+        "Chicken",
+        "Karahi",
+        "Main course",
+        "Indian",
+        "Pakistani",
+        "Asian"
+      ],
+      "userId": 6,
+      "image": "https://cdn.dummyjson.com/recipe-images/12.webp",
+      "rating": 4.8,
+      "reviewCount": 6,
+      "mealType": [
+        "Lunch",
+        "Dinner"
       ]
     },
     {
       "id": 13,
-      "title": "Fog Scent Xpressio Perfume",
-      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-      "price": 13,
-      "discountPercentage": 8.14,
-      "rating": 4.59,
-      "stock": 61,
-      "brand": "Fog Scent Xpressio",
-      "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/13/1.jpg",
-        "https://cdn.dummyjson.com/product-images/13/2.png",
-        "https://cdn.dummyjson.com/product-images/13/3.jpg",
-        "https://cdn.dummyjson.com/product-images/13/4.jpg",
-        "https://cdn.dummyjson.com/product-images/13/thumbnail.webp"
+      "name": "Aloo Keema",
+      "ingredients": [
+        "Ground beef",
+        "Potatoes, peeled and diced",
+        "Onions, finely chopped",
+        "Tomatoes, chopped",
+        "Ginger-garlic paste",
+        "Cumin powder",
+        "Coriander powder",
+        "Turmeric powder",
+        "Red chili powder",
+        "Cooking oil",
+        "Fresh coriander leaves",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "In a pan, heat cooking oil and sauté chopped onions until golden brown.",
+        "Add ginger-garlic paste and sauté until fragrant.",
+        "Add ground beef and cook until browned. Drain excess oil if needed.",
+        "Add diced potatoes, chopped tomatoes, and spices. Mix well.",
+        "Cover and simmer until the potatoes are tender and the masala is well-cooked.",
+        "Garnish with fresh coriander leaves and serve hot with naan or rice."
+      ],
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 35,
+      "servings": 5,
+      "difficulty": "Medium",
+      "cuisine": "Pakistani",
+      "caloriesPerServing": 380,
+      "tags": [
+        "Keema",
+        "Potatoes",
+        "Main course",
+        "Pakistani",
+        "Asian"
+      ],
+      "userId": 24,
+      "image": "https://cdn.dummyjson.com/recipe-images/13.webp",
+      "rating": 4.6,
+      "reviewCount": 30,
+      "mealType": [
+        "Lunch",
+        "Dinner"
       ]
     },
     {
       "id": 14,
-      "title": "Non-Alcoholic Concentrated Perfume Oil",
-      "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
-      "price": 120,
-      "discountPercentage": 15.6,
-      "rating": 4.21,
-      "stock": 114,
-      "brand": "Al Munakh",
-      "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/14/1.jpg",
-        "https://cdn.dummyjson.com/product-images/14/2.jpg",
-        "https://cdn.dummyjson.com/product-images/14/3.jpg",
-        "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg"
+      "name": "Chapli Kebabs",
+      "ingredients": [
+        "Ground beef",
+        "Onions, finely chopped",
+        "Tomatoes, finely chopped",
+        "Green chilies, chopped",
+        "Coriander leaves, chopped",
+        "Pomegranate seeds",
+        "Ginger-garlic paste",
+        "Cumin powder",
+        "Coriander powder",
+        "Red chili powder",
+        "Egg",
+        "Cooking oil",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "In a large bowl, mix ground beef, chopped onions, tomatoes, green chilies, coriander leaves, and pomegranate seeds.",
+        "Add ginger-garlic paste, cumin powder, coriander powder, red chili powder, and salt. Mix well.",
+        "Add an egg to bind the mixture and form into round flat kebabs.",
+        "Heat cooking oil in a pan and shallow fry the kebabs until browned on both sides.",
+        "Serve hot with naan or mint chutney."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 20,
+      "servings": 4,
+      "difficulty": "Medium",
+      "cuisine": "Pakistani",
+      "caloriesPerServing": 320,
+      "tags": [
+        "Kebabs",
+        "Beef",
+        "Indian",
+        "Pakistani",
+        "Asian"
+      ],
+      "userId": 66,
+      "image": "https://cdn.dummyjson.com/recipe-images/14.webp",
+      "rating": 4.7,
+      "reviewCount": 22,
+      "mealType": [
+        "Lunch",
+        "Dinner",
+        "Snacks"
       ]
     },
     {
       "id": 15,
-      "title": "Eau De Perfume Spray",
-      "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
-      "price": 30,
-      "discountPercentage": 10.99,
-      "rating": 4.7,
-      "stock": 105,
-      "brand": "Lord - Al-Rehab",
-      "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/15/1.jpg",
-        "https://cdn.dummyjson.com/product-images/15/2.jpg",
-        "https://cdn.dummyjson.com/product-images/15/3.jpg",
-        "https://cdn.dummyjson.com/product-images/15/4.jpg",
-        "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg"
+      "name": "Saag (Spinach) with Makki di Roti",
+      "ingredients": [
+        "Mustard greens, washed and chopped",
+        "Spinach, washed and chopped",
+        "Cornmeal (makki ka atta)",
+        "Onions, finely chopped",
+        "Green chilies, chopped",
+        "Ginger, grated",
+        "Ghee",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Boil mustard greens and spinach until tender. Drain and blend into a coarse paste.",
+        "In a pan, sauté chopped onions, green chilies, and grated ginger in ghee until golden brown.",
+        "Add the greens paste and cook until it thickens.",
+        "Meanwhile, knead cornmeal with water to make a dough. Roll into rotis (flatbreads).",
+        "Cook the rotis on a griddle until golden brown.",
+        "Serve hot saag with makki di roti and a dollop of ghee."
+      ],
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 30,
+      "servings": 3,
+      "difficulty": "Medium",
+      "cuisine": "Pakistani",
+      "caloriesPerServing": 280,
+      "tags": [
+        "Saag",
+        "Roti",
+        "Main course",
+        "Indian",
+        "Pakistani",
+        "Asian"
+      ],
+      "userId": 31,
+      "image": "https://cdn.dummyjson.com/recipe-images/15.webp",
+      "rating": 4.3,
+      "reviewCount": 36,
+      "mealType": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
       ]
     },
     {
       "id": 16,
-      "title": "Hyaluronic Acid Serum",
-      "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
-      "price": 19,
-      "discountPercentage": 13.31,
-      "rating": 4.83,
-      "stock": 110,
-      "brand": "L'Oreal Paris",
-      "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/16/1.png",
-        "https://cdn.dummyjson.com/product-images/16/2.webp",
-        "https://cdn.dummyjson.com/product-images/16/3.jpg",
-        "https://cdn.dummyjson.com/product-images/16/4.jpg",
-        "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg"
+      "name": "Japanese Ramen Soup",
+      "ingredients": [
+        "Ramen noodles",
+        "Chicken broth",
+        "Soy sauce",
+        "Mirin",
+        "Sesame oil",
+        "Shiitake mushrooms, sliced",
+        "Bok choy, chopped",
+        "Green onions, sliced",
+        "Soft-boiled eggs",
+        "Grilled chicken slices",
+        "Norwegian seaweed (nori)"
+      ],
+      "instructions": [
+        "Cook ramen noodles according to package instructions and set aside.",
+        "In a pot, combine chicken broth, soy sauce, mirin, and sesame oil. Bring to a simmer.",
+        "Add sliced shiitake mushrooms and chopped bok choy. Cook until vegetables are tender.",
+        "Divide the cooked noodles into serving bowls and ladle the hot broth over them.",
+        "Top with green onions, soft-boiled eggs, grilled chicken slices, and nori.",
+        "Serve hot and enjoy the authentic Japanese ramen!"
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 25,
+      "servings": 2,
+      "difficulty": "Medium",
+      "cuisine": "Japanese",
+      "caloriesPerServing": 480,
+      "tags": [
+        "Ramen",
+        "Japanese",
+        "Soup",
+        "Asian"
+      ],
+      "userId": 50,
+      "image": "https://cdn.dummyjson.com/recipe-images/16.webp",
+      "rating": 4.9,
+      "reviewCount": 46,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 17,
-      "title": "Tree Oil 30ml",
-      "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
-      "price": 12,
-      "discountPercentage": 4.09,
-      "rating": 4.52,
-      "stock": 78,
-      "brand": "Hemani Tea",
-      "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/17/1.jpg",
-        "https://cdn.dummyjson.com/product-images/17/2.jpg",
-        "https://cdn.dummyjson.com/product-images/17/3.jpg",
-        "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg"
+      "name": "Moroccan Chickpea Tagine",
+      "ingredients": [
+        "Chickpeas, cooked",
+        "Tomatoes, chopped",
+        "Carrots, diced",
+        "Onions, finely chopped",
+        "Garlic, minced",
+        "Cumin",
+        "Coriander",
+        "Cinnamon",
+        "Paprika",
+        "Vegetable broth",
+        "Olives",
+        "Fresh cilantro, chopped"
+      ],
+      "instructions": [
+        "In a tagine or large pot, sauté chopped onions and minced garlic until softened.",
+        "Add diced carrots, chopped tomatoes, and cooked chickpeas.",
+        "Season with cumin, coriander, cinnamon, and paprika. Stir to coat.",
+        "Pour in vegetable broth and bring to a simmer. Cook until carrots are tender.",
+        "Stir in olives and garnish with fresh cilantro before serving.",
+        "Serve this flavorful Moroccan dish with couscous or crusty bread."
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 30,
+      "servings": 4,
+      "difficulty": "Easy",
+      "cuisine": "Moroccan",
+      "caloriesPerServing": 320,
+      "tags": [
+        "Tagine",
+        "Chickpea",
+        "Moroccan"
+      ],
+      "userId": 6,
+      "image": "https://cdn.dummyjson.com/recipe-images/17.webp",
+      "rating": 4.5,
+      "reviewCount": 34,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 18,
-      "title": "Oil Free Moisturizer 100ml",
-      "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
-      "price": 40,
-      "discountPercentage": 13.1,
-      "rating": 4.56,
-      "stock": 88,
-      "brand": "Dermive",
-      "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/18/1.jpg",
-        "https://cdn.dummyjson.com/product-images/18/2.jpg",
-        "https://cdn.dummyjson.com/product-images/18/3.jpg",
-        "https://cdn.dummyjson.com/product-images/18/4.jpg",
-        "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg"
+      "name": "Korean Bibimbap",
+      "ingredients": [
+        "Cooked white rice",
+        "Beef bulgogi (marinated and grilled beef slices)",
+        "Carrots, julienned and sautéed",
+        "Spinach, blanched and seasoned",
+        "Zucchini, sliced and grilled",
+        "Bean sprouts, blanched",
+        "Fried egg",
+        "Gochujang (Korean red pepper paste)",
+        "Sesame oil",
+        "Toasted sesame seeds"
+      ],
+      "instructions": [
+        "Arrange cooked white rice in a bowl.",
+        "Top with beef bulgogi, sautéed carrots, seasoned spinach, grilled zucchini, and blanched bean sprouts.",
+        "Place a fried egg on top and drizzle with gochujang and sesame oil.",
+        "Sprinkle with toasted sesame seeds before serving.",
+        "Mix everything together before enjoying this delicious Korean bibimbap!",
+        "Feel free to customize with additional vegetables or protein."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 20,
+      "servings": 2,
+      "difficulty": "Medium",
+      "cuisine": "Korean",
+      "caloriesPerServing": 550,
+      "tags": [
+        "Bibimbap",
+        "Korean",
+        "Rice"
+      ],
+      "userId": 56,
+      "image": "https://cdn.dummyjson.com/recipe-images/18.webp",
+      "rating": 4.9,
+      "reviewCount": 10,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 19,
-      "title": "Skin Beauty Serum.",
-      "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
-      "price": 46,
-      "discountPercentage": 10.68,
-      "rating": 4.42,
-      "stock": 54,
-      "brand": "ROREC White Rice",
-      "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/19/1.jpg",
-        "https://cdn.dummyjson.com/product-images/19/2.jpg",
-        "https://cdn.dummyjson.com/product-images/19/3.png",
-        "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg"
+      "name": "Greek Moussaka",
+      "ingredients": [
+        "Eggplants, sliced",
+        "Ground lamb or beef",
+        "Onions, finely chopped",
+        "Garlic, minced",
+        "Tomatoes, crushed",
+        "Red wine",
+        "Cinnamon",
+        "Allspice",
+        "Nutmeg",
+        "Olive oil",
+        "Milk",
+        "Flour",
+        "Parmesan cheese",
+        "Egg yolks"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F (190°C).",
+        "Sauté sliced eggplants in olive oil until browned. Set aside.",
+        "In the same pan, cook chopped onions and minced garlic until softened.",
+        "Add ground lamb or beef and brown. Stir in crushed tomatoes, red wine, and spices.",
+        "In a separate saucepan, make béchamel sauce: melt butter, whisk in flour, add milk, and cook until thickened.",
+        "Remove from heat and stir in Parmesan cheese and egg yolks.",
+        "In a baking dish, layer eggplants and meat mixture. Top with béchamel sauce.",
+        "Bake for 40-45 minutes until golden brown. Let it cool before slicing.",
+        "Serve slices of moussaka warm and enjoy this Greek classic!"
+      ],
+      "prepTimeMinutes": 45,
+      "cookTimeMinutes": 45,
+      "servings": 6,
+      "difficulty": "Medium",
+      "cuisine": "Greek",
+      "caloriesPerServing": 420,
+      "tags": [
+        "Moussaka",
+        "Greek"
+      ],
+      "userId": 36,
+      "image": "https://cdn.dummyjson.com/recipe-images/19.webp",
+      "rating": 4.3,
+      "reviewCount": 5,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 20,
-      "title": "Freckle Treatment Cream- 15gm",
-      "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
-      "price": 70,
-      "discountPercentage": 16.99,
-      "rating": 4.06,
-      "stock": 140,
-      "brand": "Fair & Clear",
-      "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/20/1.jpg",
-        "https://cdn.dummyjson.com/product-images/20/2.jpg",
-        "https://cdn.dummyjson.com/product-images/20/3.jpg",
-        "https://cdn.dummyjson.com/product-images/20/4.jpg",
-        "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg"
+      "name": "Butter Chicken (Murgh Makhani)",
+      "ingredients": [
+        "Chicken thighs, boneless and skinless",
+        "Yogurt",
+        "Ginger-garlic paste",
+        "Garam masala",
+        "Kashmiri red chili powder",
+        "Tomato puree",
+        "Butter",
+        "Heavy cream",
+        "Kasuri methi (dried fenugreek leaves)",
+        "Sugar",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Marinate chicken thighs in a mixture of yogurt, ginger-garlic paste, garam masala, and Kashmiri red chili powder.",
+        "In a pan, melt butter and sauté the marinated chicken until browned.",
+        "Add tomato puree and cook until the oil separates. Stir in heavy cream.",
+        "Sprinkle kasuri methi, sugar, and salt. Simmer until the chicken is fully cooked.",
+        "Serve this creamy butter chicken over rice or with naan for an authentic Pakistani/Indian experience."
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 25,
+      "servings": 4,
+      "difficulty": "Medium",
+      "cuisine": "Pakistani",
+      "caloriesPerServing": 480,
+      "tags": [
+        "Butter chicken",
+        "Curry",
+        "Indian",
+        "Pakistani",
+        "Asian"
+      ],
+      "userId": 62,
+      "image": "https://cdn.dummyjson.com/recipe-images/20.webp",
+      "rating": 4.5,
+      "reviewCount": 18,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 21,
-      "title": "- Daal Masoor 500 grams",
-      "description": "Fine quality Branded Product Keep in a cool and dry place",
-      "price": 20,
-      "discountPercentage": 4.81,
-      "rating": 4.44,
-      "stock": 133,
-      "brand": "Saaf & Khaas",
-      "category": "groceries",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/21/thumbnail.png",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/21/1.png",
-        "https://cdn.dummyjson.com/product-images/21/2.jpg",
-        "https://cdn.dummyjson.com/product-images/21/3.jpg"
+      "name": "Thai Green Curry",
+      "ingredients": [
+        "Chicken thighs, boneless and skinless",
+        "Green curry paste",
+        "Coconut milk",
+        "Fish sauce",
+        "Sugar",
+        "Eggplant, sliced",
+        "Bell peppers, sliced",
+        "Basil leaves",
+        "Jasmine rice for serving"
+      ],
+      "instructions": [
+        "In a pot, simmer green curry paste in coconut milk.",
+        "Add chicken, fish sauce, and sugar. Cook until chicken is tender.",
+        "Stir in sliced eggplant and bell peppers. Simmer until vegetables are cooked.",
+        "Garnish with fresh basil leaves.",
+        "Serve hot over jasmine rice and enjoy this Thai classic!"
+      ],
+      "prepTimeMinutes": 20,
+      "cookTimeMinutes": 30,
+      "servings": 4,
+      "difficulty": "Medium",
+      "cuisine": "Thai",
+      "caloriesPerServing": 480,
+      "tags": [
+        "Curry",
+        "Thai"
+      ],
+      "userId": 83,
+      "image": "https://cdn.dummyjson.com/recipe-images/21.webp",
+      "rating": 4.2,
+      "reviewCount": 30,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 22,
-      "title": "Elbow Macaroni - 400 gm",
-      "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
-      "price": 14,
-      "discountPercentage": 15.58,
-      "rating": 4.57,
-      "stock": 146,
-      "brand": "Bake Parlor Big",
-      "category": "groceries",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/22/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/22/1.jpg",
-        "https://cdn.dummyjson.com/product-images/22/2.jpg",
-        "https://cdn.dummyjson.com/product-images/22/3.jpg"
+      "name": "Mango Lassi",
+      "ingredients": [
+        "Ripe mango, peeled and diced",
+        "Yogurt",
+        "Milk",
+        "Honey",
+        "Cardamom powder",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "In a blender, combine diced mango, yogurt, milk, honey, and cardamom powder.",
+        "Blend until smooth and creamy.",
+        "Add ice cubes and blend again until the lassi is chilled.",
+        "Pour into glasses and garnish with a sprinkle of cardamom.",
+        "Enjoy this refreshing Mango Lassi!"
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "servings": 2,
+      "difficulty": "Easy",
+      "cuisine": "Indian",
+      "caloriesPerServing": 180,
+      "tags": [
+        "Lassi",
+        "Mango",
+        "Indian",
+        "Pakistani",
+        "Asian"
+      ],
+      "userId": 95,
+      "image": "https://cdn.dummyjson.com/recipe-images/22.webp",
+      "rating": 4.7,
+      "reviewCount": 6,
+      "mealType": [
+        "Beverage"
       ]
     },
     {
       "id": 23,
-      "title": "Orange Essence Food Flavou",
-      "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
-      "price": 14,
-      "discountPercentage": 8.04,
-      "rating": 4.85,
-      "stock": 26,
-      "brand": "Baking Food Items",
-      "category": "groceries",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/23/1.jpg",
-        "https://cdn.dummyjson.com/product-images/23/2.jpg",
-        "https://cdn.dummyjson.com/product-images/23/3.jpg",
-        "https://cdn.dummyjson.com/product-images/23/4.jpg",
-        "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg"
+      "name": "Italian Tiramisu",
+      "ingredients": [
+        "Espresso, brewed and cooled",
+        "Ladyfinger cookies",
+        "Mascarpone cheese",
+        "Heavy cream",
+        "Sugar",
+        "Cocoa powder"
+      ],
+      "instructions": [
+        "In a bowl, whip heavy cream until stiff peaks form.",
+        "In another bowl, mix mascarpone cheese and sugar until smooth.",
+        "Gently fold the whipped cream into the mascarpone mixture.",
+        "Dip ladyfinger cookies into brewed espresso and layer them in a serving dish.",
+        "Spread a layer of the mascarpone mixture over the cookies.",
+        "Repeat layers and finish with a dusting of cocoa powder.",
+        "Chill in the refrigerator for a few hours before serving.",
+        "Indulge in the decadence of this classic Italian Tiramisu!"
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 0,
+      "servings": 6,
+      "difficulty": "Medium",
+      "cuisine": "Italian",
+      "caloriesPerServing": 350,
+      "tags": [
+        "Tiramisu",
+        "Italian"
+      ],
+      "userId": 58,
+      "image": "https://cdn.dummyjson.com/recipe-images/23.webp",
+      "rating": 4.6,
+      "reviewCount": 6,
+      "mealType": [
+        "Dessert"
       ]
     },
     {
       "id": 24,
-      "title": "cereals muesli fruit nuts",
-      "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
-      "price": 46,
-      "discountPercentage": 16.8,
-      "rating": 4.94,
-      "stock": 113,
-      "brand": "fauji",
-      "category": "groceries",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/24/1.jpg",
-        "https://cdn.dummyjson.com/product-images/24/2.jpg",
-        "https://cdn.dummyjson.com/product-images/24/3.jpg",
-        "https://cdn.dummyjson.com/product-images/24/4.jpg",
-        "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg"
+      "name": "Turkish Kebabs",
+      "ingredients": [
+        "Ground lamb or beef",
+        "Onions, grated",
+        "Garlic, minced",
+        "Parsley, finely chopped",
+        "Cumin",
+        "Coriander",
+        "Red pepper flakes",
+        "Salt and pepper to taste",
+        "Flatbread for serving",
+        "Tahini sauce"
+      ],
+      "instructions": [
+        "In a bowl, mix ground meat, grated onions, minced garlic, chopped parsley, and spices.",
+        "Form the mixture into kebab shapes and grill until fully cooked.",
+        "Serve the kebabs on flatbread with a drizzle of tahini sauce.",
+        "Enjoy these flavorful Turkish Kebabs with your favorite sides."
+      ],
+      "prepTimeMinutes": 25,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "difficulty": "Easy",
+      "cuisine": "Turkish",
+      "caloriesPerServing": 280,
+      "tags": [
+        "Kebabs",
+        "Turkish",
+        "Grilling"
+      ],
+      "userId": 67,
+      "image": "https://cdn.dummyjson.com/recipe-images/24.webp",
+      "rating": 4.6,
+      "reviewCount": 19,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 25,
-      "title": "Gulab Powder 50 Gram",
-      "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
-      "price": 70,
-      "discountPercentage": 13.58,
-      "rating": 4.87,
-      "stock": 47,
-      "brand": "Dry Rose",
-      "category": "groceries",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/25/1.png",
-        "https://cdn.dummyjson.com/product-images/25/2.jpg",
-        "https://cdn.dummyjson.com/product-images/25/3.png",
-        "https://cdn.dummyjson.com/product-images/25/4.jpg",
-        "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg"
+      "name": "Blueberry Banana Smoothie",
+      "ingredients": [
+        "Blueberries, fresh or frozen",
+        "Banana, peeled and sliced",
+        "Greek yogurt",
+        "Almond milk",
+        "Honey",
+        "Chia seeds (optional)"
+      ],
+      "instructions": [
+        "In a blender, combine blueberries, banana, Greek yogurt, almond milk, and honey.",
+        "Blend until smooth and creamy.",
+        "Add chia seeds for extra nutrition and blend briefly.",
+        "Pour into a glass and enjoy this nutritious Blueberry Banana Smoothie!"
+      ],
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 0,
+      "servings": 1,
+      "difficulty": "Easy",
+      "cuisine": "Smoothie",
+      "caloriesPerServing": 220,
+      "tags": [
+        "Smoothie",
+        "Blueberry",
+        "Banana"
+      ],
+      "userId": 26,
+      "image": "https://cdn.dummyjson.com/recipe-images/25.webp",
+      "rating": 4.8,
+      "reviewCount": 6,
+      "mealType": [
+        "Breakfast",
+        "Beverage"
       ]
     },
     {
       "id": 26,
-      "title": "Plant Hanger For Home",
-      "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
-      "price": 41,
-      "discountPercentage": 17.86,
-      "rating": 4.08,
-      "stock": 131,
-      "brand": "Boho Decor",
-      "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/26/1.jpg",
-        "https://cdn.dummyjson.com/product-images/26/2.jpg",
-        "https://cdn.dummyjson.com/product-images/26/3.jpg",
-        "https://cdn.dummyjson.com/product-images/26/4.jpg",
-        "https://cdn.dummyjson.com/product-images/26/5.jpg",
-        "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg"
+      "name": "Mexican Street Corn (Elote)",
+      "ingredients": [
+        "Corn on the cob",
+        "Mayonnaise",
+        "Cotija cheese, crumbled",
+        "Chili powder",
+        "Lime wedges"
+      ],
+      "instructions": [
+        "Grill or roast corn on the cob until kernels are charred.",
+        "Brush each cob with mayonnaise, then sprinkle with crumbled Cotija cheese and chili powder.",
+        "Serve with lime wedges for squeezing over the top.",
+        "Enjoy this delicious and flavorful Mexican Street Corn!"
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 15,
+      "servings": 4,
+      "difficulty": "Easy",
+      "cuisine": "Mexican",
+      "caloriesPerServing": 180,
+      "tags": [
+        "Elote",
+        "Mexican",
+        "Street food"
+      ],
+      "userId": 21,
+      "image": "https://cdn.dummyjson.com/recipe-images/26.webp",
+      "rating": 4.6,
+      "reviewCount": 22,
+      "mealType": [
+        "Snack",
+        "Side Dish"
       ]
     },
     {
       "id": 27,
-      "title": "Flying Wooden Bird",
-      "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
-      "price": 51,
-      "discountPercentage": 15.58,
-      "rating": 4.41,
-      "stock": 17,
-      "brand": "Flying Wooden",
-      "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/27/thumbnail.webp",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/27/1.jpg",
-        "https://cdn.dummyjson.com/product-images/27/2.jpg",
-        "https://cdn.dummyjson.com/product-images/27/3.jpg",
-        "https://cdn.dummyjson.com/product-images/27/4.jpg",
-        "https://cdn.dummyjson.com/product-images/27/thumbnail.webp"
+      "name": "Russian Borscht",
+      "ingredients": [
+        "Beets, peeled and shredded",
+        "Cabbage, shredded",
+        "Potatoes, diced",
+        "Onions, finely chopped",
+        "Carrots, grated",
+        "Tomato paste",
+        "Beef or vegetable broth",
+        "Garlic, minced",
+        "Bay leaves",
+        "Sour cream for serving"
+      ],
+      "instructions": [
+        "In a pot, sauté chopped onions and garlic until softened.",
+        "Add shredded beets, cabbage, diced potatoes, grated carrots, and tomato paste.",
+        "Pour in broth and add bay leaves. Simmer until vegetables are tender.",
+        "Serve hot with a dollop of sour cream on top.",
+        "Enjoy the hearty and comforting flavors of Russian Borscht!"
+      ],
+      "prepTimeMinutes": 30,
+      "cookTimeMinutes": 40,
+      "servings": 6,
+      "difficulty": "Medium",
+      "cuisine": "Russian",
+      "caloriesPerServing": 220,
+      "tags": [
+        "Borscht",
+        "Russian",
+        "Soup"
+      ],
+      "userId": 56,
+      "image": "https://cdn.dummyjson.com/recipe-images/27.webp",
+      "rating": 4.3,
+      "reviewCount": 49,
+      "mealType": [
+        "Dinner"
       ]
     },
     {
       "id": 28,
-      "title": "3D Embellishment Art Lamp",
-      "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
-      "price": 20,
-      "discountPercentage": 16.49,
-      "rating": 4.82,
-      "stock": 54,
-      "brand": "LED Lights",
-      "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/28/1.jpg",
-        "https://cdn.dummyjson.com/product-images/28/2.jpg",
-        "https://cdn.dummyjson.com/product-images/28/3.png",
-        "https://cdn.dummyjson.com/product-images/28/4.jpg",
-        "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg"
+      "name": "South Indian Masala Dosa",
+      "ingredients": [
+        "Dosa batter (fermented rice and urad dal batter)",
+        "Potatoes, boiled and mashed",
+        "Onions, finely chopped",
+        "Mustard seeds",
+        "Cumin seeds",
+        "Curry leaves",
+        "Turmeric powder",
+        "Green chilies, chopped",
+        "Ghee",
+        "Coconut chutney for serving"
+      ],
+      "instructions": [
+        "In a pan, heat ghee and add mustard seeds, cumin seeds, and curry leaves.",
+        "Add chopped onions, green chilies, and turmeric powder. Sauté until onions are golden brown.",
+        "Mix in boiled and mashed potatoes. Cook until well combined and seasoned.",
+        "Spread dosa batter on a hot griddle to make thin pancakes.",
+        "Place a spoonful of the potato mixture in the center, fold, and serve hot.",
+        "Pair with coconut chutney for a delicious South Indian meal."
+      ],
+      "prepTimeMinutes": 40,
+      "cookTimeMinutes": 20,
+      "servings": 4,
+      "difficulty": "Medium",
+      "cuisine": "Indian",
+      "caloriesPerServing": 320,
+      "tags": [
+        "Dosa",
+        "Indian",
+        "Asian"
+      ],
+      "userId": 67,
+      "image": "https://cdn.dummyjson.com/recipe-images/28.webp",
+      "rating": 4.4,
+      "reviewCount": 6,
+      "mealType": [
+        "Breakfast"
       ]
     },
     {
       "id": 29,
-      "title": "Handcraft Chinese style",
-      "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
-      "price": 60,
-      "discountPercentage": 15.34,
-      "rating": 4.44,
-      "stock": 7,
-      "brand": "luxury palace",
-      "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/29/thumbnail.webp",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/29/1.jpg",
-        "https://cdn.dummyjson.com/product-images/29/2.jpg",
-        "https://cdn.dummyjson.com/product-images/29/3.webp",
-        "https://cdn.dummyjson.com/product-images/29/4.webp",
-        "https://cdn.dummyjson.com/product-images/29/thumbnail.webp"
+      "name": "Lebanese Falafel Wrap",
+      "ingredients": [
+        "Falafel balls",
+        "Whole wheat or regular wraps",
+        "Tomatoes, diced",
+        "Cucumbers, sliced",
+        "Red onions, thinly sliced",
+        "Lettuce, shredded",
+        "Tahini sauce",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": [
+        "Warm falafel balls according to package instructions.",
+        "Place a generous serving of falafel in the center of each wrap.",
+        "Top with diced tomatoes, sliced cucumbers, red onions, shredded lettuce, and fresh parsley.",
+        "Drizzle with tahini sauce and wrap tightly.",
+        "Enjoy this Lebanese Falafel Wrap filled with fresh and flavorful ingredients!"
+      ],
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 10,
+      "servings": 2,
+      "difficulty": "Easy",
+      "cuisine": "Lebanese",
+      "caloriesPerServing": 400,
+      "tags": [
+        "Falafel",
+        "Lebanese",
+        "Wrap"
+      ],
+      "userId": 22,
+      "image": "https://cdn.dummyjson.com/recipe-images/29.webp",
+      "rating": 4.7,
+      "reviewCount": 25,
+      "mealType": [
+        "Lunch"
       ]
     },
     {
       "id": 30,
-      "title": "Key Holder",
-      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
-      "price": 30,
-      "discountPercentage": 2.92,
-      "rating": 4.92,
-      "stock": 54,
-      "brand": "Golden",
-      "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/30/1.jpg",
-        "https://cdn.dummyjson.com/product-images/30/2.jpg",
-        "https://cdn.dummyjson.com/product-images/30/3.jpg",
-        "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg"
+      "name": "Brazilian Caipirinha",
+      "ingredients": [
+        "Cachaça (Brazilian sugarcane spirit)",
+        "Lime, cut into wedges",
+        "Granulated sugar",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "In a glass, muddle lime wedges with granulated sugar to release the juice.",
+        "Fill the glass with ice cubes.",
+        "Pour cachaça over the ice and stir well.",
+        "Sip and enjoy the refreshing taste of the Brazilian Caipirinha!",
+        "Adjust sugar and lime to suit your taste preferences."
+      ],
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
+      "servings": 1,
+      "difficulty": "Easy",
+      "cuisine": "Brazilian",
+      "caloriesPerServing": 150,
+      "tags": [
+        "Caipirinha",
+        "Brazilian",
+        "Cocktail"
+      ],
+      "userId": 64,
+      "image": "https://cdn.dummyjson.com/recipe-images/30.webp",
+      "rating": 4.4,
+      "reviewCount": 4,
+      "mealType": [
+        "Beverage"
       ]
     }
   ],
-  "total": 100,
+  "total": 50,
   "skip": 0,
   "limit": 30
 }
