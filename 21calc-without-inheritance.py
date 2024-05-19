@@ -15,4 +15,5 @@ object_1 = Sum([12,13])
 
 print(object_1.args[0])
 print(object_1.args[1])
+print(object_1.args)
 print(object_1.response())
