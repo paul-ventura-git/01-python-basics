@@ -1,4 +1,4 @@
-thislist = ["0 apple", "1 banana", " 2 cherry", "3 apple", "4 cherry", True, 33]
+thislist = ["0 apple", "1 banana", " 2 cherry", "3 kiwi", "4 cherry", True, 33]
 print(thislist)
 print(len(thislist))
 print(type(thislist))
@@ -13,4 +13,5 @@ print("#####################################################")
 otherlist = list(("bouganvillea", "daisy", "rose")) # note the double round-brackets
 print(otherlist)
 
-
+if "rose" in otherlist:
+  print("Yes, 'rose' is in the fruits list")
