@@ -11,13 +11,16 @@
 # sort()	  Sorts the list
 
 import mylist
-my_list_of_users = mylist.mylist
+import json
 
+my_list_of_users = mylist.mylist
 
 my_list_of_users.append("Something")
 print(my_list_of_users)
 print('##########################################################')
 print(len(my_list_of_users))
+print(my_list_of_users[3])
 print('##########################################################')
 my_list_of_users.reverse()
 print(my_list_of_users)
+print('##########################################################')
