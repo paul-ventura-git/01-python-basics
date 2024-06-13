@@ -1,4 +1,7 @@
 cars = ["audi", "chevrolet", "ford", "lexus"]
+
+# Print all the elements in the list
+print("******************** for x in cars:")
 for x in cars:
     print(x)
 
