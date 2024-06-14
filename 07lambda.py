@@ -22,8 +22,18 @@ print(mytripler(111))
 #############################################################
 
 # The second parenthesis means the argument of the lambda
-print ((lambda x: x + 1)(2))
+print((lambda x: x + 1)(2))
 
 # (lambda x: x + 1)(2) = lambda 2: 2 + 1
 #                      = 2 + 1
 #                      = 3
+
+#############################################################
+
+adder = lambda x, y: x + y
+print(adder (500, 500))
+
+#############################################################
+#What a lambda returns #2
+x="some kind of a useless lambda"
+(lambda x : print(x))(x)
