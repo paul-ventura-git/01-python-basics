@@ -35,9 +35,9 @@ for x in range(2, 30, 3):
   print(x)
 
 # Print all the elements and break when value is met
-print("******************** for x in range(6): if x == 3: break")
+print("******************** for x in range(6): if x == 7: break")
 for x in range(6):
-  if x == 3: break
+  if x == 7: break
   print(x)
 else:
   print("Finally finished!")
